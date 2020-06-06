@@ -82,7 +82,7 @@ using namespace std;
  string to_string(const A (&v), int x1, int x2, C... coords) {
 
      int rnk = rank<A>::value;
-     string tab(t_a_b_s, '   ');
+     string tab(t_a_b_s, "   ");
 
      string res = "";
      bool first = true;
